@@ -1,10 +1,10 @@
 <?php
 
-namespace Krlove\CodeGenerator\Model\Traits;
+namespace RafahSBorges\CodeGenerator\Model\Traits;
 
 /**
  * Trait FinalModifierTrait
- * @package Krlove\CodeGenerator\Model\Traits
+ * @package RafahSBorges\CodeGenerator\Model\Traits
  */
 trait FinalModifierTrait
 {

@@ -3,24 +3,24 @@
 Code generator is a PHP tool that provides an interface for generating code. Currently only PHP class generation is supported.
 
 ## Installation
-Require the package using composer `composer require krlove/code-generator --dev`. Code generator is usually intended to be installed only in dev environment. Installation in prod environment is not recommended.
+Require the package using composer `composer require rafahsborges/code-generator --dev`. Code generator is usually intended to be installed only in dev environment. Installation in prod environment is not recommended.
 
 ## Usage example
 ```php
 <?php
 
-use Krlove\CodeGenerator\Model\ArgumentModel;
-use Krlove\CodeGenerator\Model\ClassModel;
-use Krlove\CodeGenerator\Model\ConstantModel;
-use Krlove\CodeGenerator\Model\ClassNameModel;
-use Krlove\CodeGenerator\Model\DocBlockModel;
-use Krlove\CodeGenerator\Model\MethodModel;
-use Krlove\CodeGenerator\Model\NamespaceModel;
-use Krlove\CodeGenerator\Model\PropertyModel;
-use Krlove\CodeGenerator\Model\UseTraitModel;
-use Krlove\CodeGenerator\Model\UseClassModel;
-use Krlove\CodeGenerator\Model\VirtualMethodModel;
-use Krlove\CodeGenerator\Model\VirtualPropertyModel;
+use RafahSBorges\CodeGenerator\Model\ArgumentModel;
+use RafahSBorges\CodeGenerator\Model\ClassModel;
+use RafahSBorges\CodeGenerator\Model\ConstantModel;
+use RafahSBorges\CodeGenerator\Model\ClassNameModel;
+use RafahSBorges\CodeGenerator\Model\DocBlockModel;
+use RafahSBorges\CodeGenerator\Model\MethodModel;
+use RafahSBorges\CodeGenerator\Model\NamespaceModel;
+use RafahSBorges\CodeGenerator\Model\PropertyModel;
+use RafahSBorges\CodeGenerator\Model\UseTraitModel;
+use RafahSBorges\CodeGenerator\Model\UseClassModel;
+use RafahSBorges\CodeGenerator\Model\VirtualMethodModel;
+use RafahSBorges\CodeGenerator\Model\VirtualPropertyModel;
 
 require 'vendor/autoload.php';
 

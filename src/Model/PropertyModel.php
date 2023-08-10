@@ -1,16 +1,16 @@
 <?php
 
-namespace Krlove\CodeGenerator\Model;
+namespace RafahSBorges\CodeGenerator\Model;
 
-use Krlove\CodeGenerator\Model\Traits\AccessModifierTrait;
-use Krlove\CodeGenerator\Model\Traits\DocBlockTrait;
-use Krlove\CodeGenerator\Model\Traits\StaticModifierTrait;
-use Krlove\CodeGenerator\Model\Traits\ValueTrait;
+use RafahSBorges\CodeGenerator\Model\Traits\AccessModifierTrait;
+use RafahSBorges\CodeGenerator\Model\Traits\DocBlockTrait;
+use RafahSBorges\CodeGenerator\Model\Traits\StaticModifierTrait;
+use RafahSBorges\CodeGenerator\Model\Traits\ValueTrait;
 
 /**
 
  * Class PHPClassProperty
- * @package Krlove\CodeGenerator\Model
+ * @package RafahSBorges\CodeGenerator\Model
  */
 class PropertyModel extends BasePropertyModel
 {
