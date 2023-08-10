@@ -1,11 +1,10 @@
 {
-  "name": "krlove/code-generator",
+  "name": "rafahsborges/code-generator",
   "description": "Code Generator",
-  "version": "1.0.1",
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Krlove\\CodeGenerator\\": "src/"
+      "RafahSBorges\\CodeGenerator\\": "src/"
     }
   }
 }

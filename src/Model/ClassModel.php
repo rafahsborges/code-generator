@@ -1,14 +1,14 @@
 <?php
 
-namespace Krlove\CodeGenerator\Model;
+namespace RafahSBorges\CodeGenerator\Model;
 
-use Krlove\CodeGenerator\Exception\GeneratorException;
-use Krlove\CodeGenerator\Model\Traits\DocBlockTrait;
-use Krlove\CodeGenerator\RenderableModel;
+use RafahSBorges\CodeGenerator\Exception\GeneratorException;
+use RafahSBorges\CodeGenerator\Model\Traits\DocBlockTrait;
+use RafahSBorges\CodeGenerator\RenderableModel;
 
 /**
  * Class ClassModel
- * @package Krlove\CodeGenerator\Model
+ * @package RafahSBorges\CodeGenerator\Model
  */
 class ClassModel extends RenderableModel
 {

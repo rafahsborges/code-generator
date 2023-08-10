@@ -1,12 +1,12 @@
 <?php
 
-namespace Krlove\CodeGenerator\Model;
+namespace RafahSBorges\CodeGenerator\Model;
 
-use Krlove\CodeGenerator\RenderableModel;
+use RafahSBorges\CodeGenerator\RenderableModel;
 
 /**
  * Class PHPClassTrait
- * @package Krlove\CodeGenerator\Model
+ * @package RafahSBorges\CodeGenerator\Model
  */
 class UseTraitModel extends RenderableModel
 {
