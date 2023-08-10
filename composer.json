@@ -1,7 +1,6 @@
 {
   "name": "rafahsborges/code-generator",
   "description": "Code Generator",
-  "version": "2.0.0",
   "license": "MIT",
   "autoload": {
     "psr-4": {
